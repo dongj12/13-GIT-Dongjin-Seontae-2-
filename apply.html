@@ -3,6 +3,145 @@
 <head>
   <meta charset="UTF-8">
   <title>연세대학교 멋쟁이사자처럼 13기 지원서</title>
+<<<<<<< HEAD
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px;
+    }
+    header {
+      text-align: left;
+      margin-bottom: 30px;
+    }
+    header img {
+      width: 80px;
+      height: auto;
+    }
+    header h1 {
+      font-size: 24px;
+      margin: 10px 0 0 0;
+    }
+    .intro p {
+      margin: 5px 0;
+    }
+    h2 {
+      margin-top: 40px;
+      font-size: 20px;
+    }
+    hr {
+      margin-top: 15px;
+      border: none;
+      border-top: 1px solid #ccc;
+    }
+    .boxed-section {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-top: 30px;
+      position: relative;
+    }
+    .boxed-section legend {
+      font-weight: bold;
+      padding: 0 10px;
+      position: absolute;
+      top: -12px;
+      left: 15px;
+      background: #f9f9f9;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    textarea {
+      resize: none;
+    }
+    .radio-group, .checkbox-group {
+      margin-top: 10px;
+    }
+    .radio-group label, .checkbox-group label {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .submit-buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 0 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button[type="submit"] {
+      background-color: #007bff;
+      color: white;
+    }
+    button[type="reset"] {
+      background-color: #ccc;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 헤더 영역 (로고와 제목) -->
+  <header>
+    <img src="likelion_logo.png" alt="연세대 로고">
+    <h1>연세대학교 멋쟁이사자처럼 13기 지원서</h1>
+  </header>
+
+  <!-- 소개글 -->
+  <div class="intro">
+    <p><strong>내 아이디어를 내 손으로 구현해보고 싶다면 주목!</strong></p>
+    <p><em>연세대학교 멋쟁이 사자처럼</em>에서 13기 아기사자를 모집합니다.</p>
+    <p>모집 교육을 통해 자신의 아이디어를 서비스로 구현하고 나아가 창업을 꿈꾸는 분들의 많은 지원 부탁드립니다.</p>
+  </div>
+
+  <!-- 모집 일정 -->
+  <section>
+    <h2>1. 모집일정</h2>
+    <ul>
+      <li>서류 접수: 2/16 (금) 09:00 ~ 2/23 (금)</li>
+      <li>서류 전형 결과 발표: 2/26 (월) 오후 합격자 개별 공지</li>
+      <li>면접 진행: 2/28 (수) ~ 2/29 (목)</li>
+      <li>최종 합격자 발표: 3/2 (토) 오후 합격자 개별 공지</li>
+    </ul>
+    <hr>
+  </section>
+
+  <!-- 문의 사항 -->
+  <section>
+    <h2>2. 문의사항</h2>
+    <p>ㆍ오픈채팅: <a href="#">바로가기</a></p>
+    <p>ㆍ인스타그램: <a href="https://instagram.com/likelion_yonsei" target="_blank">@likelion_yonsei</a></p>
+    <p><strong><u>서류 제출 기간을 꼭 확인하신 후 기한 내 제출 부탁드립니다.</u></strong></p>
+    <hr>
+  </section>
+
+  <!-- 지원자 정보 -->
+  <fieldset class="boxed-section">
+    <legend>지원자 정보</legend>
+    <label>이름 <input type="text" name="name" required></label>
+    <label>학번 <input type="text" name="student_id" required></label>
+    <label>생년월일 <input type="date" name="birth" required></label>
+    <label>학년 및 학기
+      <select name="grade_semester" required>
+=======
 </head>
 <body>
 
@@ -55,6 +194,7 @@
       <label for="semester">학년 및 학기:</label><br>
       <select id="semester" name="semester" required>
         <option value="">선택</option>
+>>>>>>> main
         <option value="1-1">1-1</option>
         <option value="1-2">1-2</option>
         <option value="2-1">2-1</option>
@@ -63,6 +203,76 @@
         <option value="3-2">3-2</option>
         <option value="4-1">4-1</option>
         <option value="4-2">4-2</option>
+<<<<<<< HEAD
+      </select>
+    </label>
+    <label>이메일 <input type="email" name="email" required></label>
+    <label>휴대폰 번호 <input type="tel" name="phone" required></label>
+  </fieldset>
+
+  <!-- 지원 분야 -->
+  <fieldset class="boxed-section">
+    <legend>지원 분야</legend>
+    <div class="radio-group">
+      <label><input type="radio" name="field" value="기획" required> 기획</label>
+      <label><input type="radio" name="field" value="디자인"> 디자인</label>
+      <label><input type="radio" name="field" value="백엔드"> 백엔드</label>
+      <label><input type="radio" name="field" value="프론트엔드"> 프론트엔드</label>
+    </div>
+  </fieldset>
+
+  <!-- 문항 -->
+  <section>
+    <h2>문항</h2>
+    <label>1. 지원 동기
+      <textarea name="motivation" rows="4" required></textarea>
+    </label>
+    <label>2. 협업 경험
+      <textarea name="cooperation" rows="4" required></textarea>
+    </label>
+    <label>3. 만들고 싶은 서비스
+      <textarea name="service" rows="4" placeholder="당신의 창의력을 맘껏 뽐내주세요!" required></textarea>
+    </label>
+    <label>4. 코딩 공부에 얼마나 시간을 투자할 생각이신가요?
+      <textarea name="study_time" rows="2" required></textarea>
+    </label>
+    <label>5. 포트폴리오가 있다면 첨부해주세요 (선택사항)
+      <input type="file" name="portfolio">
+    </label>
+  </section>
+
+  <!-- 비대면 면접 가능 시간 -->
+  <section>
+    <h2>비대면 면접 참석 가능 시간</h2>
+    <p>가능한 시간을 모두 체크해주세요!</p>
+    <div class="checkbox-group">
+      <strong>1. 2/28</strong><br>
+      <label><input type="checkbox" name="date_28" value="10"> 10</label>
+      <label><input type="checkbox" name="date_28" value="11"> 11</label>
+      <label><input type="checkbox" name="date_28" value="12"> 12</label>
+      <label><input type="checkbox" name="date_28" value="13"> 13</label>
+      <label><input type="checkbox" name="date_28" value="14"> 14</label>
+      <label><input type="checkbox" name="date_28" value="15"> 15</label><br><br>
+      <strong>2. 2/29</strong><br>
+      <label><input type="checkbox" name="date_29" value="10"> 10</label>
+      <label><input type="checkbox" name="date_29" value="11"> 11</label>
+      <label><input type="checkbox" name="date_29" value="12"> 12</label>
+      <label><input type="checkbox" name="date_29" value="13"> 13</label>
+      <label><input type="checkbox" name="date_29" value="14"> 14</label>
+      <label><input type="checkbox" name="date_29" value="15"> 15</label>
+    </div>
+  </section>
+
+  <!-- 제출 버튼 -->
+  <div class="submit-buttons">
+    <button type="submit">제출하기</button>
+    <button type="reset">취소하기</button>
+  </div>
+
+  </form>
+</body>
+</html>
+=======
       </select><br><br>
 
       <label for="email">이메일:</label><br>
@@ -134,3 +344,4 @@
 </form>
 </body>
 </html>
+>>>>>>> main
